@@ -4,7 +4,8 @@
 
 #define BUFFER_SIZE 256 // Adjust as needed for expected line length
 
-bus_t bus = {NULL, NULL, NULL, 0}; // Global bus structure
+/* Global bus structure definition */
+bus_t bus = { NULL, NULL, NULL, 0 };
 
 /**
  * main - monty code interpreter
